@@ -1,0 +1,118 @@
+body *{
+	overflow-x: hidden;
+	text-decoration: none;
+}
+
+/* -------- SETUP -------- */
+
+#home{
+	height: 100vh;
+}
+
+.sidebar{
+	background-color: rgba(0,0,0,.2);
+	height: 100vh;
+	box-shadow: 2px -2px 20px grey;
+}
+
+.content{
+	background-color: rgba(0,0,0,.05);
+	height: 100vh;
+}
+
+/* -------- SIDEBAR -------- */
+
+.sidebar li{
+	text-align: right;
+	padding: 1rem;
+	font-size: 1.25rem;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.sidebar li:hover{
+	background-color: #dfdfdf;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.sidebar img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	object-fit: cover;
+	box-shadow: 10px 10px 20px grey;
+}
+
+/* -------- START -------- */
+
+#start{
+	height: 100vh;
+}
+
+#start h1{
+	text-align: center;
+	margin-top: 15%;
+	margin-bottom: 2.5%;
+	box-sizing: content-box;
+	overflow-y: hidden;
+}
+
+#start p{
+	text-align: center;
+}
+
+#start li{
+	margin-top: 5%;
+	display: inline-block;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-size: 1.25rem;
+}
+
+#start ul{
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+}
+
+#start footer{
+	margin-bottom: 0;
+	bottom: 25%;
+	left: calc(100vw/3);
+	font-size: 1.15rem;
+	line-height: 2rem;
+}
+
+/* -------- EDUCAÇÃO -------- */
+
+#edu{
+
+}
+
+/* -------- FORMAÇÕES COMPLEMENTARES -------- */
+
+#comp{
+
+}
+
+/* -------- EXPERIÊNCIAS PROFISSIONAIS -------- */
+
+#pro{
+
+}
+
+/* -------- CERTIFICADOS -------- */
+
+#cert{
+
+}
+
+/* -------- LINGUAGENS -------- */
+
+#lang{
+
+}
